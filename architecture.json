@@ -14,5 +14,9 @@
     {
         "level": 1,
         "task_description": "Add a sidebar with the navlinks home, about and contact"
+    },
+    {
+        "level": 1,
+        "task_description": "Add a navbar at the top with the navlinks home, about and integrations"
     }
 ]
