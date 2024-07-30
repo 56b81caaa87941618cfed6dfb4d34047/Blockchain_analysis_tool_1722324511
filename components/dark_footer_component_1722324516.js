@@ -8,7 +8,18 @@
 
 Vue.component("dark_footer_component_1722324516", {
     template: `
-<div class="flex">
+<div class="flex flex-col">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white font-bold text-xl">Logo</div>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-white hover:text-purple-400">Home</a></li>
+                <li><a href="#" class="text-white hover:text-purple-400">About</a></li>
+                <li><a href="#" class="text-white hover:text-purple-400">Integrations</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="flex">
     <aside class="w-64 bg-gray-800 text-white p-6">
         <nav>
             <ul class="space-y-4">
@@ -84,6 +95,8 @@ Vue.component("dark_footer_component_1722324516", {
         </div>
     </div>
     </div>
+    </div>
+</div>
     </div>
 </div>
 </footer>`,
