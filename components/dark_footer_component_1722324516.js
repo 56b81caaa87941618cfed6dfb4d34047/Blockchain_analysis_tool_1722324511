@@ -92,10 +92,14 @@ Vue.component("dark_footer_component_1722324516", {
             <button class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
                 Hello World
             </button>
-        </div>
         <div class="flex justify-center pb-8">
             <button class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
                 Hello World
+            </button>
+        </div>
+        <div class="flex justify-center pb-8">
+            <button class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                Submit
             </button>
         </div>
     </div>
